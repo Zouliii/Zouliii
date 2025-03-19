@@ -8,7 +8,8 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f4f4f4;
+            background-image: url('flowers.jpg'); /* 背景鲜花图片 */
+            background-size: cover;
             transition: background-color 0.5s;
         }
         .header {
@@ -38,17 +39,31 @@
             background-color: #0056b3;
         }
 
+       .bubble {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.7);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            animation: rise 5s infinite;
+        }
         @keyframes float {
             0% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
             100% { transform: translateY(0); }
+        }
+        @keyframes rise {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-100vh); opacity: 0; }
         }
     </style>
 </head>
 <body>
     <div class="header">
         <h1>邹丽</h1>
-        <p>热情 · 专业 · 创新</p>
+        <p>“代码改变世界，梦想点亮人生。”
+           “在数字的世界里，寻找生活的真谛</p>
     </div>
 
     <div class="section">
