@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>张泾平的个人主页</title>
+    <title>邹丽的个人主页</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
         .header { text-align: center; border-bottom: 2px solid #eee; padding-bottom: 20px; }
