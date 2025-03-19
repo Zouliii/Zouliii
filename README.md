@@ -3,10 +3,46 @@
 <head>
     <title>邹丽的个人主页</title>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .header { text-align: center; border-bottom: 2px solid #eee; padding-bottom: 20px; }
-        .section { margin: 40px 0; }
-        img { width: 150px; border-radius: 50%; }
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            transition: background-color 0.5s;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+            animation: float 2s infinite ease-in-out;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
@@ -16,25 +52,42 @@
     </div>
 
     <div class="section">
-        <h2>📌 关于我</h2>
-        <p>这里写你的个人简介，比如：</p>
+        <h2>🌹 关于我</h2>
         <ul>
-            <li>从事领域/专业方向</li>
-            <li>工作经验/学习经历</li>
-            <li>个人优势或成就</li>
+            <li>热爱运动、热爱大自然！！！</li>
+            <li>现在正好樱花季，阳光那么好，是时候出去逛一逛了！</li>
+            <li>有活力、有爱心、有毅力、有耐心。</li>
         </ul>
     </div>
 
     <div class="section">
         <h2>🎓 教育背景</h2>
-        <p>XX大学 · 计算机科学 · 2018-2022</p>
+        <p>武汉工程大学 · 环境工程 · 2020-2024</p>
+        <p>华中农业大学 · 资源与环境 · 2024-至今</p>
     </div>
 
+ <div class="section">
+        <h2>💻 技能</h2>
+        <ul>
+            <li>编程语言：Python, JavaScript都还没学会</li>
+            <li>框架：React, Django正准备了解一下</li>
+            <li>工具：Git, Docker刚刚认识没多久</li>
+            <li>运动：徒步、乒乓、羽毛球；</li>
+    </div>
+
+  <div class="section">
+        <h2>😊 愿望</h2>
+        <ul>
+            <li>第一个愿望：全世界和平</li>
+            <li>第二个愿望：每天都有好天气，每天都是好心情</li>
+            <li>第三个愿望：不说出来</li>
+     </div>
+            
     <div class="section">
         <h2>📞 联系我</h2>
         <ul>
-            <li>邮箱：yourname@example.com</li>
-            <li>微信：YourWeChatID</li>
-            <li>LinkedIn：<a href="#">个人主页链接</a></li>
+            <li>邮箱：1394630998@qq.com</li>
+            <li>微信：猜一猜</li>
+            <li>LinkedIn：here~~~<a href="#">个人主页链接</a></li>
         </ul>
     </div>
