@@ -91,3 +91,21 @@
             <li>LinkedIn：here~~~<a href="#">个人主页链接</a></li>
         </ul>
     </div>
+
+<!-- 添加彩色气泡 -->
+    <div class="bubble" style="left: 10%; top: 20%; background-color: #ff69b4;"></div>
+    <div class="bubble" style="left: 30%; top: 40%; background-color: #90ee90;"></div>
+    <div class="bubble" style="left: 50%; top: 10%; background-color: #add8e6;"></div>
+    <div class="bubble" style="left: 70%; top: 50%; background-color: #ffa500;"></div>
+    <div class="bubble" style="left: 90%; top: 30%; background-color: #f0e68c;"></div>
+
+    <script>
+        // 简单的JavaScript功能，比如改变背景颜色
+        function changeBackgroundColor() {
+            var colors = ['red', 'blue', 'green', 'yellow'];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>
